@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset='UTF-8'>
+<title>Narsi Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  header {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #007acc;
+  }
+  header p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  nav {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #007acc;
+  }
+  section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  h2 {
+    color: #007acc;
+  }
+  ul {
+    line-height: 1.6;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #eee;
+    margin-top: 2rem;
+  }
+ .project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.project-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  flex: 1 1 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card p {
+  text-align: left;
+}
+
+.project-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  background-color: #ddd;
+}
+
+
+</style>
+</head>
+<body>
+<header>
+  <h1>Narsi Reddy Sanikommu</h1>
+  <p>Mechanical Engineering Graduate Student | Johns Hopkins University</p>
+  <p>Email: <a href="mailto:nsaniko1@jh.edu">nsaniko1@jh.edu</a> |<a href="mailto:narsireddysanikommu@gmail.com">narsireddysanikommu@gmail.com</a> | <a href="https://www.linkedin.com/in/narsi-reddy-sanikommu" target="_blank">LinkedIn</a></p>
+</header>
+
+<nav>
+  <a href="index.html">About</a>
+  <a href="education.html">Education</a>
+  <a href="experience.html">Experience</a>
+  <a href="skills.html">Skills</a>
+  <a href="projects and publications.html">Projects and publications</a>
+  <a href="resume.html">Resume</a>
+</nav>
+<section>
+  <h2>Projects</h2>
+  <div class="project-container">
+
+    <div class="project-card">
+      <strong>Characterizing Sample Using TEM:</strong>
+      <img src="Project images/TEM Material characterization.JPG" alt="STEM, EDX Spectrum, EDX mapping, Low mag images" class="project-img">
+      
+      <p>Characterized crystalline material mixture via TEM using diffraction patterns, HRTEM/LRTEM, STEM, and EDX analysis.</p>
+    </div>    
+
+    <div class="project-card">
+      <strong>Operating UR5 to Sketch an Image:</strong>
+      <img src="Project images/ur5.JPG" alt="UR5" class="project-img">
+      
+      <p>Programmed UR5 robot with MATLAB and ROS2 to create single-line drawings from input images using inverse kinematics algorithm.</p>
+    </div>
+
+    <div class="project-card">
+      <strong>Fabrication of Flow Cytometric Chip:</strong>
+      <img src="Project images/Flowcytometer.JPG" alt="Fabrication, working of a flowcytometer chip" class="project-img">
+      
+      <p>Designed and fabricated a microfluidic flow cytometry chip using advanced microfabrication techniques.<br>
+      <a href="Files/Function and Fabrication of Micro-fluidic Chip for Flow Cytometry.pdf" target="_blank">(Project Report)</a>,
+      <a href="Files/Flow Cytometery fabrication.pdf" target="_blank">(Slides)</a></p>
+    </div>
+
+    
+    <div class="project-card">
+      <strong>Novel Haptic System with a Single-Cell Refreshable Display:</strong>
+      <img src="Project images/haptics.JPG" alt="Braille Teaching Module" class="project-img">
+      <p>Engineered a Braille literacy system achieving 95% accuracy with real-time error correction using Arduino, MATLAB, solenoid actuators, and a custom PCB. Enabled independent learning for visually impaired users.</p>
+    </div>
+
+    <div class="project-card">
+      <strong>Resistance Spot Welding of Dissimilar Metals</strong> — B.Tech Thesis:      
+      <p>Built an <strong>FEA model in Ansys</strong> to analyze weld nugget strength under various parameters. Validated results experimentally, cutting experimental costs by <strong>50%</strong>.
+      <a href="https://drive.google.com/file/d/17Npjo_x_8JqqQkRpFSOHQ831MBFLkGnR/view" target="_blank">(Link)</a></p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section>
+  <h2>Publications</h2>
+  <ul>
+    <li><strong> Stable flow regulator assembly:</strong> <a href="https://patentimages.storage.googleapis.com/9f/7a/96/5c56ca4282887d/US12188581.pdf"> US20240175499A1 </a>(Application granted) </li>
+    <li><strong> Fluid connector system: </strong><a href="https://patentimages.storage.googleapis.com/7b/11/26/17a141df457ef1/US12186518.pdf"> US12186518B2 </a> (Application granted) </li>
+    <li><strong> Split septum needle free connector and post needle free connector with sleeve septum fuse concept: </strong><a href="https://patentimages.storage.googleapis.com/8a/d6/c7/04c9ccc8facef8/US20240238576A1.pdf"> US20240238576A1 </a> (Published, Pending grant) </li>
+    <li><strong> Stable flow regulator assembly: </strong><a href="https://patentimages.storage.googleapis.com/fe/26/b6/6444eab92e90ea/US20240075207A1.pdf"> US20240075207A1 </a> (Published, Pending grant)</li>
+    <li><strong> Disinfection device for female connectors: </strong><a href="https://patentimages.storage.googleapis.com/0c/c4/be/3bb3c234613586/US20240173537A1.pdf"> US20240173537A1 </a> (Published, Pending grant)</li>
+    <li><strong> Stable iv flow regulation clamp assembly: </strong><a href="https://patentimages.storage.googleapis.com/a3/b6/c3/9b1f23cadaefa8/US20220409876A1.pdf"> US20220409876A1 </a> (Published, Pending grant) </li>
+    <li><strong> Vial Adapter with Universal Connection: </strong><a href="https://patentimages.storage.googleapis.com/56/97/27/2756f30fe2b13e/US20250107969A1.pdf"> US20250107969A1 </a> (Published, Pending grant) </li>
+    <li><strong> Detection of infusion site failure: </strong><a href="http://patentimages.storage.googleapis.com/2e/ec/1d/25301e1afd8423/US20240091437A1.pdf"> US20240091437A1 </a> (Published, Pending grant) </li>
+    <li><strong> Fluid connector system: </strong><a href="https://patentimages.storage.googleapis.com/72/10/06/d9a51d93a2ecc3/US20240358989A1.pdf"> US20240358989A1 </a> (Published, Pending grant)</li>
+
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 Narsi Reddy Sanikommu</p>
+</footer>
+</body></html>
